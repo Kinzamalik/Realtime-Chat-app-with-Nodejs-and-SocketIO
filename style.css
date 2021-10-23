@@ -6,21 +6,56 @@
 }
 
 body{
-    background-image: linear-gradient(rgb(184, 226, 228),rgb(236, 236, 236));
+    height: 100vh;
+    background-image: linear-gradient(rgb(15, 71, 75),rgb(236, 236, 236));
 }
 
 .container{
     max-width: 955px;
-    background-color: red;
+    background-color: rgb(33, 139, 155);
+    border-radius: 10px;
     margin: auto;
-    height: 60vh;
+    height: 70vh;
 }
 
 .message{
-    background-color: grey;
+    background-color: rgb(233, 232, 232);
     width: 24%;
     padding: 10px;
     margin: 17px 12px;
     border: 2px solid black;
     border-radius: 10px;
 }
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+
+#send_container{
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
